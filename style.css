@@ -1,0 +1,106 @@
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Stone-100: hsl(30, 54%, 90%);
+  --Stone-150: hsl(30, 18%, 87%);
+  --Stone-600: hsl(30, 10%, 34%);
+  --Stone-900: hsl(24, 5%, 18%);
+  --Brown-800: hsl(14, 45%, 36%);
+  --Rose-800: hsl(332, 51%, 32%);
+  --Rose-50: hsl(330, 100%, 98%);
+}
+
+@font-face {
+  font-family: outfit;
+  src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: young;
+  src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-family: outfit;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--Stone-600);
+  background-color: var(--Stone-100);
+}
+
+.title {
+  font-family: young;
+  color: var(--Stone-900);
+}
+
+.heading-1 {
+  font-family: young;
+  color: var(--Brown-800);
+}
+
+.heading-2 {
+  color: var(--Rose-800);
+}
+
+.container {
+  width: clamp(290px, 55vw, 720px);
+  display: flex;
+  padding: 32px;
+  margin: 5% 0;
+  border-radius: 15px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--White);
+}
+
+hr {
+  width: 92%;
+  background-color:  var(--Stone-100)
+}
+
+.card img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.list {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  list-style: inside;
+  padding-left: 0;
+}
+.list-2 {
+  list-style-type: decimal;
+}
+
+.list-2 li span {
+  margin-left: 15px;
+}
+
+.list-2 li::marker {
+  font-weight: 700;
+}
+.list li::marker {
+  color: var(--Brown-800);
+}
+
+.content section {
+  padding: 7px 25px;
+}
+
+table {
+  width: 100%;
+}
+
+table tr td {
+  border-bottom: 1px solid var(--Stone-150);
+  padding: 10px;
+}
+
+.value {
+  color: var(--Brown-800);
+  font-weight: 800;
+}
