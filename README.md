@@ -23,7 +23,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 ### Links
 
-- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/blog-preview-card-using-css-and-html-VVtMMl6wWW)
+- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/frontend-mentor-recipe-page-main-using-html-and-css-gGb43gRlHb)
 - Live Site URL: [Live site URL here](https://zzz-ren.github.io/Frontend-mentor-recipe-page-main/)
 
 ## My process
